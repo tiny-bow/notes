@@ -34,13 +34,3 @@ this way, when the level is built the assets are ready
 on init: catalog the assets available; do not load them into memory
 
 in editor mode: export asset catalog, diff asset catalog, export diff, etc
-
-
-
-3-way merge is out; it is insanely slow.
-
-we're going to go with a bethesda-style method here,
-and the alternative approach to alleviate mod conflicts will be
-to simply try to make data as granular as possible.
-
-*if and when* this breaks down with a particular asset type, we can re-evaluate.
